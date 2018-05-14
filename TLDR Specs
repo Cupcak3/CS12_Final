@@ -1,0 +1,28 @@
+A) Browser
+    Minimum 5 HTML Pages
+    CSS
+    JavaScript
+
+    Creating a root folder and server site folders
+    Creating basic pages
+    Using tables/divs to lay out content
+    Including images and text
+    Using relative and absolute links
+    Using alternative text (Alt text)
+    Creating Forms and linking with database.
+    Creating external style sheets and or using templates
+    Creating rollover images
+
+    Student folders: All students should have a folder for all of their work. Folder names might include
+    student’s last name, first initial, and CS351 label
+
+    Backups: Students should keep complete backups of all work on the client workstation. You will not
+    receive any grade for the project if you claim that the folder on the server “vanished”.
+
+    Privacy issues: You may not want to put complete names and confidential data like phone number on the
+    web. It might be inappropriate for you to include full names or e-mail addresses.
+
+
+B) Server
+    PHP scripts
+    DB Connectivity
