@@ -1,0 +1,33 @@
+body
+{
+	width            : 100%;
+	background-color : black;
+	color            : white;
+	font-family      : Impact, serif;
+}
+
+.aboutme
+{
+	font-family : Verdana, serif;
+	width       : 75%;
+	font-size   : 130%;
+}
+
+.welcome, .welcomelinks
+{
+	display : inline;
+	margin : 0 auto;
+	text-align: center;
+}
+
+.welcomelinks
+{
+	text-align: center;
+}
+
+.happypicture
+{
+	display      : block;
+	margin-left  : auto;
+	margin-right : auto;
+}
