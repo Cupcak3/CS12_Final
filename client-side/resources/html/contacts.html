@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Phonebook</title>
+	<link rel="stylesheet" type="text/css" href="../css/contacts.css">
+</head>
+
+<body>
+<div id="page">
+	<a href="homepage.html" target="_self">Back</a>
+	<script src="../js/contacts.js" defer></script>
+
+	<div style="width: 200px; margin: auto;">
+		This Page will act as the form input and validation page to mimic a phonebook.
+	</div>
+
+	<form method="post" action="../../server-side/php/contacts.php" id="phonebook">
+
+		<label>
+			Name: <input type="text" id="name" name="name" required>
+		</label>
+
+		<label>
+			Address: <input type="text" id="address" name="address">
+		</label>
+
+		<label>
+			Phone number: <input type="text" id="phonenumber" name="phonenumber">
+		</label>
+
+		<label>
+			Email: <input type="text" id="email" name="email">
+		</label>
+
+		<input type="button" id="validate" value="Submit" onclick="validateForm()">
+
+	</form>
+</div>
+</body>
+</html>
