@@ -1,4 +1,4 @@
-function validateForm(event)
+function validateForm()
 {
 
 	console.log("Validating");
@@ -8,29 +8,24 @@ function validateForm(event)
 	var num = document.querySelector("#phonenumber");
 	var email = document.querySelector("#email");
 
-	if (name.value.replace(/ /g, '') === '')
+	if (name.value.replace(/ /g, '') === '' || email.value ==='')
 	{
-		alert("Invalid form");
-		event.preventDefault();
-		return
+		alert("Please enter a name and/or email");
+		return false
 	}
 	else if (validateNumber(num.value) && num.value !== '')
 	{
 		alert("Invalid phone number");
-		event.preventDefault();
-		return
+		return false
 	}
 	else if (validateEmail(email.value) && email.value !== '')
 	{
 		alert("Invalid email");
-		event.preventDefault();
-		return
+		return false
 	}
-	var contact = '{"name":"' + name.value + '","address":"' + address.value + '","phonenumber":"' + num.value + '","email":"' + email.value + '"}';
-	contact = JSON.parse(contact);
 
-	//form.submit();
-	return false;
+	document.getElementById("phonebook").submit();
+	document.getElementById("phonebook").reset();
 }
 
 function validateEmail(email)

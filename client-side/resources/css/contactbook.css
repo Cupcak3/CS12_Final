@@ -1,0 +1,20 @@
+body
+{
+	background-color : black;
+	color            : white;
+	font-family      : Impact, serif;
+	font-size        : 120%;
+	text-align       : center;
+}
+
+#page
+{
+	width  : 1000px;
+	margin : 0 auto
+}
+
+table
+{
+	width      : 100%;
+	text-align : center;
+}

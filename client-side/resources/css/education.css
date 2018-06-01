@@ -1,5 +1,7 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: Impact, serif;
+body
+{
+	background-color : black;
+	color            : white;
+	font-family      : Impact, serif;
+	font-size        : 150%;
 }

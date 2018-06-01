@@ -8,17 +8,18 @@
 
 <body>
 <div id="page">
-	<a href="homepage.html" target="_self">Back</a>
+	<a href="homepage.html" target="_self">Home</a>
+	<a href="../../../server-side/php/contactbook.php" target="_self">View Contacts</a>
 	<script src="../js/contacts.js" defer></script>
 
 	<div style="width: 200px; margin: auto;">
-		This Page will act as the form input and validation page to mimic a phonebook.
+		This Page will act as the form input and validation page to mimic a contact book.
 	</div>
 
-	<form method="post" action="../../server-side/php/contacts.php" id="phonebook">
+	<form action="../../../server-side/php/contacts.php" method="post" id="phonebook" target="_self">
 
 		<label>
-			Name: <input type="text" id="name" name="name" required>
+			Name: <input type="text" id="name" name="name">
 		</label>
 
 		<label>
