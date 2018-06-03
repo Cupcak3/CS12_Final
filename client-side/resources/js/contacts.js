@@ -4,7 +4,6 @@ function validateForm()
 	console.log("Validating");
 
 	var name = document.querySelector("#name");
-	var address = document.querySelector("#address");
 	var num = document.querySelector("#phonenumber");
 	var email = document.querySelector("#email");
 
