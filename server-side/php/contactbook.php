@@ -10,6 +10,7 @@
 <div id="page">
 
 	<a href="../../client-side/resources/html/homepage.html" target="_self">Home</a>
+	<br>
 	<a href="contactbook.php?1">Delete all contacts</a>
 	<h1>Contact book<br></h1>
 
@@ -35,7 +36,7 @@
 	if (!$data)
 	{
 		$link = "<a href=../../client-side/resources/html/contacts.html target='_self'>Add contacts</a>";
-		echo "No contacts yet!<br>";
+		echo "No contacts yet!<br><br>";
 		echo "$link";
 		exit();
 	}
